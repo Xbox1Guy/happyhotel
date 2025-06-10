@@ -1,0 +1,10 @@
+{
+  "season1": [
+    { "title": "Episode 1: Lorem Ipsum", "thumb": "thumb1.jpg", "url": "https://abyss.to/embed/vid1" },
+    { "title": "Episode 2: Lorem Ipsum", "thumb": "thumb2.jpg", "url": "https://abyss.to/embed/vid2" }
+  ],
+  "season2": [
+    { "title": "Episode 3: Lorem Ipsum", "thumb": "thumb3.jpg", "url": "https://abyss.to/embed/vid3" },
+    { "title": "Episode 4: Lorem Ipsum", "thumb": "thumb4.jpg", "url": "https://abyss.to/embed/vid4" }
+  ]
+}

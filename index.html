@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Indie Animation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">BTS</a>
+      <a href="#">ARCHIVE</a>
+    </nav>
+  </header>
+
+  <div class="logo">
+    <h1>Logo Image</h1>
+  </div>
+
+  <div class="season-tabs">
+    <div id="tab1" class="active" onclick="showSeason(1)">Season 1</div>
+    <div id="tab2" onclick="showSeason(2)">Season 2</div>
+  </div>
+
+  <div id="season1" class="episodes"></div>
+  <div id="season2" class="episodes" style="display:none"></div>
+
+  <div id="overlay" class="overlay" onclick="closeVideo()">
+    <iframe id="videoFrame" allowfullscreen></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
